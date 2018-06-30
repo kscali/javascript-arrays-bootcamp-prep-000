@@ -10,4 +10,14 @@ function destructivelyAddElementToBeginningOfArray(array,element){
     return array;
   }  
   
-  f
+  function addElementToEndOfArray(array, element) {
+    const newArrays = array.push(element);
+    return newArrays;
+  }
+  
+  function destructivelyAddElementToEndOfArray(array, element) {
+    array = array.push(element);
+    return array
+  }
+  
+  
