@@ -20,4 +20,15 @@ function destructivelyAddElementToBeginningOfArray(array,element){
     return array
   }
   
-  function accessElementInArray(element, )
+  function accessElementInArray(element, index) {
+    return element[index];
+  }
+  
+  
+  function destructivelyRemoveElementFromBeginningOfArray(array){
+    array.unshift();
+    return array;
+    
+  }
+  
+  function 
