@@ -26,9 +26,25 @@ function destructivelyAddElementToBeginningOfArray(array,element){
   
   
   function destructivelyRemoveElementFromBeginningOfArray(array){
-    array.unshift();
+    array.shift();
     return array;
     
   }
   
-  function 
+  function removeElementFromBeginningOfArray(array) {
+    var newList = array.slice(1);
+    return newList;
+  }
+  
+  function destructivelyRemoveElementFromEndOfArray(array) {
+    array.push()
+    return array;
+  }
+  
+  function removeElementFromEndOfArray(array) {
+    var newListArray = array.slice(0, array.length -1);
+    return newListArray;
+  }
+  
+  
+  
