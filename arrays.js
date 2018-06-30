@@ -20,4 +20,4 @@ function destructivelyAddElementToBeginningOfArray(array,element){
     return array
   }
   
-  
+  function accessElementInArray(element, )
