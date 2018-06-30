@@ -26,14 +26,14 @@ function destructivelyAddElementToBeginningOfArray(array,element){
   
   
   function destructivelyRemoveElementFromBeginningOfArray(array){
-    array = array.shift();
+    array.shift();
     return array;
     
   }
   
   function removeElementFromBeginningOfArray(array) {
-    var newList = array.slice(1);
-    return newList;
+    var newList = array.slice(0, 1);
+    return array
   }
   
   function destructivelyRemoveElementFromEndOfArray(array) {
